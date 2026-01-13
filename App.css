@@ -1,0 +1,79 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.user-list {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.user-item {
+  padding: 10px;
+  border: 1px solid #eee;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-item:hover {
+  background-color: #f0f0f0;
+}
+
+.user-item.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.user-details {
+  flex: 2;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.user-profile {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.counter {
+  margin: 30px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.counter button {
+  margin: 0 10px 10px 0;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.loading {
+  color: #666;
+  font-style: italic;
+  padding: 10px;
+  background-color: #fff3cd;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.stats {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+}
